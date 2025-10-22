@@ -20,6 +20,6 @@ export const SUPPORTED_LANGUAGES = [
 ];
 
 
-export const OPENAI_KEY = "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"
+export const OPENAI_KEY = import.meta.env.VITE_OPEN_AI_KEY;
 
 export const VITE_GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
