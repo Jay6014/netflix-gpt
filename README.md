@@ -69,4 +69,9 @@ START THE SERVER:
 -----------------
     npm run dev
     http://localhost:5173
+
+
+HOSTING URL:
+------------
+     https://netflixgpt-3289d.web.app
     
