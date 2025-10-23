@@ -108,9 +108,7 @@ const SeriesInfo = () => {
           {trailer && (
             <div className="mt-4">
               <h2 className="text-xl font-semibold mb-2">Trailer</h2>
-              <iframe
-                width="560"
-                height="315"
+              <iframe className="w-full h-full md:w-[350] md:h-96"
                 src={`https://www.youtube.com/embed/${trailer.key}`}
                 title="Series Trailer"
                 frameBorder="0"
