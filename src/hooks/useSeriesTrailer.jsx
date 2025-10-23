@@ -13,7 +13,8 @@ const useSeriesTrailer = (seriesId)=>{
         //console.log(json);
         const filteredTrailer = json.results.filter((video)=> video.type === "Trailer")
         //console.log(filteredTrailer);
-        const trailer = filteredTrailer.length ? filteredTrailer[0] : json.results[0]; 
+        
+        const trailer = filteredTrailer.length ? filteredTrailer[0] : { key: "D-bAfFqvxZg" }; // fallback My Demon trailer
         dispatch(addTrailerVideo(trailer));
 
     }
